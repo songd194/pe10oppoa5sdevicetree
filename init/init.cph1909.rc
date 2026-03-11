@@ -1,0 +1,9 @@
+on boot
+    # Set permissions for MediaTek hardware
+    chown system system /dev/accelerometer
+    chown system system /dev/als_ps
+    chown system system /dev/m_alsps
+    
+on fs
+    # Mount vendor
+    mount_all /vendor/etc/fstab.mt6765
