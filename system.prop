@@ -1,4 +1,2 @@
-ro.treble.enabled=true
 ro.vndk.version=29
-persist.sys.fflag.override.settings_dynamic_system=true
 persist.sys.qcom-brightness=2400
