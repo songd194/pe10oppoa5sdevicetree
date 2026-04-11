@@ -1,8 +1,8 @@
 # mount point   fstype   device                         device2
-/boot           emmc     /dev/block/bootdevice/by-name/boot
-/cache          ext4     /dev/block/bootdevice/by-name/cache
-/data           ext4     /dev/block/bootdevice/by-name/userdata
-/misc           emmc     /dev/block/bootdevice/by-name/misc
-/recovery       emmc     /dev/block/bootdevice/by-name/recovery
-/system         ext4     /dev/block/bootdevice/by-name/system
-/vendor         ext4     /dev/block/bootdevice/by-name/vendor
+/boot           emmc     /dev/block/by-name/boot
+/cache          ext4     /dev/block/by-name/cache
+/data           ext4     /dev/block/by-name/userdata
+/misc           emmc     /dev/block/by-name/misc
+/recovery       emmc     /dev/block/by-name/recovery
+/system         ext4     /dev/block/by-name/system
+/vendor         ext4     /dev/block/by-name/vendor
