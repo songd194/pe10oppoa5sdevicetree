@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Device naming
-PRODUCT_NAME := DOTOS_CPH1909
+PRODUCT_NAME := havoc_CPH1909
 PRODUCT_DEVICE := cph1909
 PRODUCT_BRAND := OPPO
 PRODUCT_MODEL := A5s
